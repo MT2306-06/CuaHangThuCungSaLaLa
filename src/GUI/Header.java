@@ -48,12 +48,12 @@ public class Header extends JPanel {
         // Khởi tạo dữ liệu menu con tương ứng cho từng tab
         this.menuConMap = new HashMap<>();
         this.menuConMap.put("Nhân viên", new String[]{"Danh sách nhân viên", "Danh sách bác sĩ", "Thống kê"});
-        this.menuConMap.put("Thú cưng", new String[]{"Hồ sơ thú cưng", "Loại thú cưng", "Lịch sử khám"});
-        this.menuConMap.put("Khách hàng", new String[]{"Danh sách khách hàng", "Thẻ thành viên"});
-        this.menuConMap.put("Hóa đơn", new String[]{"Tạo hóa đơn mới", "Danh sách hóa đơn"});
-        this.menuConMap.put("Vật tư", new String[]{"Kho thuốc", "Dụng cụ y tế"});
-        this.menuConMap.put("Lịch hẹn", new String[]{"Lịch hôm nay", "Đặt lịch mới"});
-        this.menuConMap.put("Dịch vụ", new String[]{"Bảng giá dịch vụ", "Gói chăm sóc"});
+        this.menuConMap.put("Thú cưng", new String[]{"Danh sách thú cưng", "Loại thú cưng", "Lịch sử khám"});
+        this.menuConMap.put("Khách hàng", new String[]{"Danh sách khách hàng", "Quản lý hạng thành viên"});
+        this.menuConMap.put("Hóa đơn", new String[]{"Danh sách hóa đơn", "Danh sách đơn thuốc"});
+        this.menuConMap.put("Vật tư", new String[]{"Kho", "Quản lý xuất kho", "Quản lý nhập kho"});
+        this.menuConMap.put("Lịch hẹn", new String[]{"Lịch khám sức khỏe", "Lịch dịch vụ chăm sóc"});
+        this.menuConMap.put("Dịch vụ", new String[]{"Danh sách dịch vụ", "Khuyến mãi"});
 
         khoiTaoGiaoDien();
     }
